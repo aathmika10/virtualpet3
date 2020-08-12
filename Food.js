@@ -50,13 +50,13 @@ class Food {
       }
       
       BedRoom(){
-        backGround(bedroomimg,550,500);
+        backGround(bedroomimg,180,300);
 
       }
       WashRoom(){
-        backGround(washroomimg,550,500);
+        backGround(washroomimg,180,300);
       }
       Garden(){
-        backGround(gardenimg,550,500);
+        backGround(gardenimg,180,300);
       }
 }
