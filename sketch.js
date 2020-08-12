@@ -212,17 +212,17 @@ function draw() {
     
     textSize(14);
     fill("white");
-    text("Food remaining:"+foodS,250,170);
+    text("Food remaining:"+foodS,180,170);
    
     //To get the last feed time
     if(lastFed>=12){
-      text("Last Feed :" + lastFed%12+ "PM",350,30);
+      text("Last Feed :" + lastFed%12+ "PM",280,30);
     }
     else if(lastFed==0){
-      text("Last Fed : 12 AM", 350,30);
+      text("Last Fed : 12 AM", 280,30);
     }
     else{
-      text("Last Feed :"+lastFed, 350,30)
+      text("Last Feed :"+lastFed, 280,30)
     }
 
     //What must be done if the gameState is not hungry
