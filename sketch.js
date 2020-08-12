@@ -216,13 +216,13 @@ function draw() {
    
     //To get the last feed time
     if(lastFed>=12){
-      text("Last Feed :" + lastFed%12+ "PM",280,30);
+      text("Last Feed :" + lastFed%12+ "PM",200,30);
     }
     else if(lastFed==0){
-      text("Last Fed : 12 AM", 280,30);
+      text("Last Fed : 12 AM", 200,30);
     }
     else{
-      text("Last Feed :"+lastFed, 280,30)
+      text("Last Feed :"+lastFed, 200,30)
     }
 
     //What must be done if the gameState is not hungry
